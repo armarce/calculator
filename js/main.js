@@ -8,14 +8,6 @@ let operators = ['%', '÷', 'x', '-', '+'];
 
 let outputElement = document.getElementById("output");
 
-let checkDisplay = () => {
-
-    let currentResult = parseInt(outputElement.textContent);
-    console.log(typeof currentResult);
-    return (typeof currentResult === 'number');
-
-}
-
 let calculate = () => {
 
     let outputValue = document.getElementById("output").textContent;
